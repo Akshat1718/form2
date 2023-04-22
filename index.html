@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><center>
+        <h1>FORM</h1>
+    <form action="backend.pip">
+        <label for="name">Name</label>
+
+        <input type="text" name="myname" id="name">
+
+        <br>
+        <div>
+            Roll: <input type="text" name="myroll">
+        </div>
+        
+        <div>
+            Email: <input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            D.O.B <input type="date" name="mydate">
+        </div>
+        <br>
+        <div class="gender">
+            Gender:
+             Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Write about yourself <br><textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value=sel">Select</option>
+                <option value="Fortuner">Fortuner</option>
+                <option value="G">G wagon</option>
+            </select>
+        </div>
+        <br>
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+
+    </form></center>
+</body>
+
+</html>
